@@ -1,6 +1,7 @@
 # SlimerJS
 
-SlimerJS, CasperJS in a Docker container
+SlimerJS, CasperJS in a Docker container.
+
 Fork of [cmfaith/slimerjs](https://hub.docker.com/r/cmfatih/slimerjs/).
 
 # Usage
