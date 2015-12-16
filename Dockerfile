@@ -8,7 +8,7 @@
 #   docker run chetbox/slimerjs /usr/bin/casperjs | head -n 1
 #   docker run -v `pwd`:/mnt/test chetbox/slimerjs /usr/bin/slimerjs /mnt/test/test.js
 
-# VERSION 1.1.0
+# VERSION 1.1.1
 
 FROM ubuntu:14.04
 
