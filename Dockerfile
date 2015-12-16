@@ -27,7 +27,7 @@ RUN \
   tar -xjf /tmp/slimerjs-$SLIMERJS_VERSION_F-linux-x86_64.tar.bz2 -C /tmp && \
   rm -f /tmp/slimerjs-$SLIMERJS_VERSION_F-linux-x86_64.tar.bz2 && \
   mv /tmp/slimerjs-$SLIMERJS_VERSION_F/ /srv/var/slimerjs && \
-  echo '#!/bin/bash\nxvfb-run /srv/var/slimerjs/slimerjs $*' > /srv/var/slimerjs/slimerjs.sh && \
+  echo '#!/bin/bash\nxvfb-run -a /srv/var/slimerjs/slimerjs $*' > /srv/var/slimerjs/slimerjs.sh && \
   chmod 755 /srv/var/slimerjs/slimerjs.sh && \
   ln -s /srv/var/slimerjs/slimerjs.sh /usr/bin/slimerjs && \
   git clone https://github.com/n1k0/casperjs.git /srv/var/casperjs && \
